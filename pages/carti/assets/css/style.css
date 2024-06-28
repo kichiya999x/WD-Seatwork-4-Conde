@@ -123,10 +123,11 @@ code {
   .left p {
     font-size: 15px;
     margin-right: 50px;
+    text-align: justify;
   }
 
   .right-iframe {
-    margin-left: 20px; /* Adjust the space as needed */
+    margin-left: 20px;
   }
   
   .semiContainer .right {
