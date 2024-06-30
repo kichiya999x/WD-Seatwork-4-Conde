@@ -4,16 +4,16 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/kichiya999x">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="https://i.pinimg.com/564x/d0/63/ff/d063fff5a0f16f2b490790f434c48bdd.jpg" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Feature Display</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This website showcases features of my favorite opium artists using pure HTML and CSS.
 </div>
 
 <br />
@@ -57,7 +57,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This project is a tribute to the artistry and creativity of opium artists, showcasing their work in a visually compelling format. Designed purely with HTML and CSS, it aims to provide an immersive experience that highlights the unique styles and contributions of each artist. The website serves not only as a gallery but also as an interactive platform where visitors can explore the depths of opium artistry through various designs and layouts.
 
 Guiding Question:
 - What is the project
@@ -69,8 +69,6 @@ Guiding Question:
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -116,5 +114,14 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
+| Google Font | Change font to PT Sans Narrow | https://fonts.google.com/specimen/PT+Sans+Narrow |
+| Google Font | Change font to Manrope | https://fonts.google.com/specimen/Manrope?query=manrope |
+| Bootstrap | Provides a collection of syntax for template designs | https://getbootstrap.com/ |
+| Grunge Loop Overlay | Landing Page Visual | https://youtu.be/0fpV2vVcvp0?si=V00tMLSJenLGpXZB |
+| GQ Feature for Carti | Feature 1 Content | https://www.gq.com/story/playboi-carti-men-of-the-year-profile |
+| Playboi Carti | Website Inspiration | https://www.playboicarti.com/ |
+| 20 YRS - Destroy Lonely Visual | Feature 2 Visual | https://youtu.be/IkcM3qxBe-w?si=B99JC8cPRwKK7lQH |
+| Destroy Lonely Website | For my contents | https://shop.destroylonely.net/ |
 | Korn Website | Website Inspiration | https://kornofficial.com/ |
+
+
