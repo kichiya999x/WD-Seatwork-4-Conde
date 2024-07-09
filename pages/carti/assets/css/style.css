@@ -86,7 +86,7 @@ code {
     justify-content: center;
     background-color: rgb(14, 14, 14);
     width: 100%;
-    padding: 48px 48px;
+    padding: 48px 0px;
   }
   
   .about .semiContainer {
@@ -113,6 +113,7 @@ code {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    width: 100%;
   }
   
   .left h1 {
@@ -130,24 +131,7 @@ code {
     margin-left: 20px;
   }
   
-  .semiContainer .right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-  
-  .semiContainer .right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .semiContainer .right {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
+
 
   .carti{
     width: 100%;
@@ -172,4 +156,29 @@ code {
 .youtube{
   width: 2080px;
   height: 800px;
+}
+
+.title-text{
+  text-align: center;
+  padding: 2rem;
+
+  & h2{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: black;
+  }
+
+  & p{
+    color: #2d2d2d;
+    line-height: 2;
+}
+}
+
+
+.container1{
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 300px;
+  background-color: white;
 }
