@@ -173,3 +173,17 @@ code {
   width: 2080px;
   height: 800px;
 }
+
+.cta-button {
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.cta-button:hover {
+  background-color: #ff1e1e;
+}
