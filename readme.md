@@ -6,9 +6,8 @@
 <div align="center">
   <a href="https://github.com/kichiya999x">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="https://i.pinimg.com/564x/d0/63/ff/d063fff5a0f16f2b490790f434c48bdd.jpg" alt="Nyebe" width="130" height="100">
+    <img src="https://i.pinimg.com/564x/d0/63/ff/d063fff5a0f16f2b490790f434c48bdd.jpg" alt="" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Feature Display</h3>
 </div>
 <!-- TODO: Make a short description -->
@@ -18,11 +17,6 @@
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
-
----
 
 <br />
 <br />
@@ -59,16 +53,11 @@
 <!-- The following are just sample -->
 This project is a tribute to the artistry and creativity of opium artists, showcasing their work in a visually compelling format. Designed purely with HTML and CSS, it aims to provide an immersive experience that highlights the unique styles and contributions of each artist. The website serves not only as a gallery but also as an interactive platform where visitors can explore the depths of opium artistry through various designs and layouts.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 - MultiPage Website/Single Page Website
+- Responsive Design
+- Interactive Gallery
+- Calendar
 
 ### Technology
 <!-- TODO: List of Technology Used -->
