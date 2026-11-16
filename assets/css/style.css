@@ -268,3 +268,32 @@
     font-weight: 400;
   }
 
+
+/* 2026 restoration: conservative layout and accessibility fixes. */
+html { scroll-behavior: smooth; }
+body { background: #0d0d0d; color: #fff; overflow-x: hidden; }
+.navbar a:hover, .navbar a:focus-visible { color: #fff; }
+:focus-visible { outline: 2px solid #ff7e8b; outline-offset: 4px; }
+.hero { width: 100%; min-height: 100svh; }
+section video { height: 100%; }
+section .content h2 { line-height: .9; font-size: clamp(3.4rem,9vw,8rem); }
+section .content h2 span { display: inline-block; margin-top: 22px; font-size: .22em; line-height: 1.3; }
+.collections { padding: 52px 0; }
+.collections_card_container > a.card { display: block; color: #fff; text-decoration: none; }
+.collections_card_container > .card { flex: 1 1 240px; min-width: 0; height: 330px; }
+.collections_card_container div:hover { transform: none; box-shadow: none; }
+.collections_card_container > a.card:hover { transform: translateY(-6px); box-shadow: 0 8px 18px rgba(0,0,0,.3); }
+.collections_card_container > .card .overlay { position: absolute; inset: 0; display: block; }
+.collections_card_container > .card .content { z-index: 2; text-align: left; }
+.collections_card_container .card small { display: block; margin-top: 8px; color: #eee; font-size: 12px; }
+.card1 { background-image: url("../img/iammusic.jpg"); }
+.unfinished { filter: saturate(.5); cursor: default; }
+@media (max-width: 650px) {
+  .navbar { padding: 12px 20px; height: 64px; }
+  .navbar__menu_container { gap: 12px; }
+  .hero { min-height: 80svh; }
+  section .content h2 { font-size: clamp(3.2rem,11vw,5rem); }
+  .container { width: 88%; }
+  .collections_card_container > .card { flex-basis: 100%; height: 280px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } section video { display: none; } }
