@@ -114,3 +114,16 @@ WD-ProjectName
 | Korn Website | Website Inspiration | https://kornofficial.com/ |
 
 
+
+---
+
+## Viewing the restored 2024 site
+
+This is a static HTML/CSS project; there is no npm install or build step.
+
+**Locally:** Open `index.html`, or run `python -m http.server 8000` in this repository and open `http://localhost:8000`.
+
+**GitHub Pages:** After merging the restoration PR, visit **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, and save. The expected site URL will be:
+`https://kichiya999x.github.io/WD-Seatwork-4-Conde/`.
+
+**What changed:** HTML nesting and errors, responsive sizing, blank-page links, and one inactive button. The two artist features, original video assets, and the student-era visual direction were retained. Ken Carson and Kanye were already empty in the original repository and are identified as unfinished on the landing page. Some third-party images/embeds may be unavailable; replace them with locally hosted assets if you have suitable usage rights.
